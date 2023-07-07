@@ -6,17 +6,17 @@
 # Каждое число вводится с новой строки.
 
 
-# a = int(input("Введите первый элемент a: ")) 
-# b = int(input("Введите шаг прогрессии b: ")) 
-# k = int(input("Введите число членов прогрессии k: ")) 
+a = int(input("Введите первый элемент a: ")) 
+b = int(input("Введите шаг прогрессии b: ")) 
+k = int(input("Введите число членов прогрессии k: ")) 
  
-# prog = [a] 
+prog = [a] 
  
-# for i in range(k-1): 
-#     pro = prog[i]+b 
-#     prog.append(pro) 
+for i in range(k-1): 
+    pro = prog[i]+b 
+    prog.append(pro) 
  
-# print(prog)
+print(prog)
 
 
 

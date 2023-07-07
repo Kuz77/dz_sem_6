@@ -1,0 +1,13 @@
+list1 = [1,2,3,5,8,15,23,38]
+
+list2 = []
+for i in range(len(list1)):
+    if list1[i] % 2 ==0:
+        list2.append(list1[i])
+print(list2)
+list3 = []
+for i in range(len(list2)):
+    list3.append(list2[i]**2)
+print(list3)
+
+
